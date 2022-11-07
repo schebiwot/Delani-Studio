@@ -1,0 +1,13 @@
+#first{
+    background-color: rgb(0, 174, 255);
+     height: 600px;
+     font-style: italic;
+    background-image: url(../imgs/h_img.jpeg);
+    padding-top: 280px;
+
+
+}
+.card text-center{
+    background-color: transparent;
+
+}
