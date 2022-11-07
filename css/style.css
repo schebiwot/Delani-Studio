@@ -11,10 +11,20 @@
 .card text-center{
     background-color: transparent;
     color: white;
+    border: none;
 
 }
 .services{
     height: 350px;
     background-image:url(../imgs/s_image.jpeg);
     color: rgb(223, 229, 234);
+}
+.card-img-top{
+    width: 40%;
+    height: auto;
+}
+.contact
+{
+    background-image:url(../imgs/c_image.jpeg);
+    height: 400px;
 }
