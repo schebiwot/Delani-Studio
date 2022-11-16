@@ -1,0 +1,52 @@
+#first {
+  background-color: rgb(0, 174, 255);
+  height: 600px;
+  font-style: italic;
+  background-image: url(../imgs/h_img.jpeg);
+  padding-top: 280px;
+  color: rgb(244, 246, 248);
+}
+.card text-center {
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+.services {
+  background-image: url(../imgs/s_image.jpeg);
+  color: rgb(223, 229, 234);
+}
+.card-img-top {
+  width: 40%;
+  height: auto;
+}
+.contact {
+  background-image: url(../imgs/c_image.jpeg);
+  /* height: 400px; */
+}
+.contact .transparent-input{
+  background-color:transparent !important;
+}
+.contact input::placeholder,
+.contact textarea::placeholder{
+  color: white;
+}
+.contact input, .contact textarea {
+  color: white !important;
+}
+.card {
+  border: none;
+}
+.subservices .card-group {
+  min-height: 350px;
+}
+/* .subservices .card-img-top:hover {
+  display: none;
+} */
+/* .subservices .card-img-top:hover + .card-body {
+  display: block;
+  color: black;
+} */
+.subservices .card-body {
+  transition: top 0.3s ease-in-out;
+  display: none;
+}
